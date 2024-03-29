@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+<style type="text/css"></style>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body class="main-container" style="text-align:center;">
+<div  style="padding-top:50px;width:10%;position:relative; left:85%;top:5%;">
+	<a class="btn-1" href="./Logout">Logout</a>
+</div>
+<div class="form-container">
+<h1 class="heading">Add Employee Name</h1>
+	<form action="Insert" method="post">
+		<table border="1" class="center table-border" style="height: 300px;" >
+			<tr>
+				<td style="width:100px;font-family: Arial, Helvetica, sans-serif;"><label id="label-1">Username</label></td>
+				<td><input style="height:auto;font-size: medium;" type="text" name="empname" required></td>
+			</tr>
+			<tr>
+				<td style="width:100px;font-family: Arial, Helvetica, sans-serif;"><label id="label-2">Password</label></td>
+				<td><input style="font-size: medium;" type="password" name="emppass" required></td>
+			</tr>
+			<tr>
+				<td style="width:100px;font-family: Arial, Helvetica, sans-serif;"><label id="label-3">Email</label></td>
+				<td><input style="height:auto;font-size: medium;" type="text" name="empemail" required></td>
+			</tr>
+			<tr>
+				<td style="width:100px;font-family: Arial, Helvetica, sans-serif;"><label id="label-4">Country</label></td>
+				<td><select name="empcntry" style="height:auto;font-size: medium; width:200px;">
+						<option>India</option>
+						<option>USA</option>	
+						<option>UK</option>
+						<option>Other</option>
+					</select></td>
+			</tr>
+			<tr>
+			<td><input style="font-size:medium; height:100% ; border:0; border-radius: 4px;  background-color: whitesmoke; width:100%;font-family: Arial, Helvetica, sans-serif;" type="reset" value="Reset"></td>
+			<td><input style="font-size:medium; width:100% ; border:0; background-color:whitesmoke;font-family: Arial, Helvetica, sans-serif;" type="submit" value="Save"></td>
+			</tr>
+		</table>
+	</form><br><br>
+	<a style="padding:10px 50px;" href="./View" class="btn-1">View Employees</a>
+	<br><br>
+
+
+
+
+</div>
+</body>
+</html>
